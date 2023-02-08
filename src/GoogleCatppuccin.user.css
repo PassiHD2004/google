@@ -156,10 +156,14 @@
       background-color: var(--ctp-base);
     }
     .yg51vc {
-        background-color: var(--ctp-base);
+      background-color: var(--ctp-base);
     }
     .RNNXgb {
       background: var(--ctp-surface0);
+      border: 1px solid var(--ctp-surface1);
+    }
+    .QCzoEc {
+      color: var(--ctp-overlay2);
     }
     .RNNXgb:hover, .sbfc .RNNXgb {
       background-color: var(--ctp-surface0);
@@ -180,14 +184,13 @@
       background: var(--ctp-surface1);
     }
     .mIKy0c.dGWpb {
-      overflow: visible;
       background-color: var(--ctp-base);
     }
     .dw-sb-cont .dw-sbi {
       background: var(--ctp-base);
     }
     .dw-sb-cont .dw-sb-btn {
-        background: var(--ctp-base);
+      background: var(--ctp-base);
     }
     .JG3t0b {
       background-color: var(--ctp-base);
@@ -204,20 +207,35 @@
     .mQo3nc {
       background-color: var(--ctp-surface0);
     }
+    #SIvCob {
+      color: var(--ctp-text);
+    }
     .uU7dJb {
+      border-bottom: 1px solid var(--ctp-surface0);
       background-color: var(--ctp-mantle);
+      color: var(--ctp-subtext1);
+    }
+    .pHiOh, a.pHiOh {
+      color: var(--ctp-subtext1);
+    }
+    .gb_Ic a.gb_p, .gb_Ic span.gb_p {
+      color: var(--ctp-text);
+    }
+    .gb_Ic svg, .gb_Nc.gb_Rc svg, .gb_Ic .gb_9c .gb_be, .gb_Ic .gb_9c .gb_Hc, .gb_Ic .gb_9c .gb_bd, .gb_Nc.gb_Rc .gb_be {
+      color: var(--ctp-text);
     }
     .KxwPGc {
       background-color: var(--ctp-mantle);
     }
     .lJ9FBc input[type="submit"] {
+      color: var(--ctp-text);
       background-color: var(--ctp-surface0);
+      border: 1px solid var(--ctp-surface1);
     }
     .lJ9FBc input[type="submit"]:hover {
       background-color: var(--ctp-surface0);
-    }
-    element.style {
-      background-color: var(--ctp-base);
+      border: 1px solid var(--ctp-surface2);
+      color: var(--ctp-text);
     }
     .Z26q7c {
       background-color: var(--ctp-base);
@@ -268,12 +286,15 @@
       background-color: var(--ctp-surface1);
     }
     .dG2XIf {
-        background: var(--ctp-base);
+      background: var(--ctp-base);
     }
     .JgfpDb.cZEg1e, .JgfpDb .cZEg1e {
       background-color: var(--ctp-mantle);
     }
     .Lj9fsd.DU1Mzb {
       background-color: var(--ctp-surface0);
+    }
+    .gb_5d {
+      background-color: var(--ctp-base) !important;
     }
 }
