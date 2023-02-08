@@ -13,26 +13,26 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/previews/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/previews/latte.png"/>
+<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/previews/frappe.png"/>
+<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/previews/macchiato.png"/>
+<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/previews/mocha.png"/>
+<img src="https://raw.githubusercontent.com/mustafakhalaf-git/google/main/assets/mocha.png"/>
 </details>
 
 ## Usage
