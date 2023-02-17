@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.0.1
+@version        1.0.2
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -296,5 +296,61 @@
     }
     .gb_5d {
       background-color: var(--ctp-base) !important;
+    }
+    a {
+      color: var(--ctp-blue);
+    }
+    .KLEmSd {
+      background-color: var(--ctp-surface1);
+    }
+    .akqY6 {
+      background: var(--ctp-surface1);
+    }
+    .pb5vrc {
+      background-color: var(--ctp-surface1);
+    }
+    .zgAlFc {
+      color: var(--ctp-blue);
+    }
+    .xtSCL {
+      border-top: 1px solid var(--ctp-surface2);
+    }
+    .GLcBOb {
+      border-bottom: 1px solid var(--ctp-surface1);
+    }
+    .fLciMb {
+      color: var(--ctp-text);
+    }
+    .hdtb-mitem a {
+      color: var(--ctp-subtext0);
+    }
+    .hdtb-mitem .GOE98c, .hdtb-mitem a, .hdtb-mitem.hdtb-msel, .t2vtad {
+      color: var(--ctp-subtext0);
+    }
+    .t2vtad:not(.hdtb-tl-sel) {
+      color: var(--ctp-subtext0);
+    }
+    .t2vtad:not(.hdtb-tl-sel):hover {
+      background-color: var(--ctp-surface0);
+      border: 1px solid var(--ctp-surface1);
+      color: var(--ctp-text)
+    }
+    .ACRAdd {
+      border-left: 1px solid var(--ctp-overlay0);
+    }
+    .ExCKkf {
+      color: var(--ctp-subtext0);
+    }
+    .ynAwRc {
+      color: var(--ctp-blue);
+    }
+    #rhs .dG2XIf {
+      border: 1px solid var(--ctp-surface1);
+    }
+    .y8Jpof.pPLc9e.kpQuGf {
+      border-top: 1px solid var(--ctp-surface1);
+    }
+    .minidiv .RNNXgb {
+      border: 1px solid var(--ctp-overlay0);
     }
 }
