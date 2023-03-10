@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.0.2
+@version        1.0.3
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -294,7 +294,7 @@
     .Lj9fsd.DU1Mzb {
       background-color: var(--ctp-surface0);
     }
-    .gb_5d {
+    .gb_Fa {
       background-color: var(--ctp-base) !important;
     }
     a {
