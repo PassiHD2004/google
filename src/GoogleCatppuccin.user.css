@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.0.3
+@version        1.0.4
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -359,5 +359,253 @@
     .cEPPT {
       border-bottom: solid 1px var(--ctp-surface1);
       margin-bottom: 11px;
+    }
+    .gb_Jc a.gb_q, .gb_Jc span.gb_q {
+      color: var(--ctp-text);
+    }
+    .gb_Jc svg, .gb_Oc.gb_Sc svg, .gb_Jc .gb_ad .gb_Ld, .gb_Jc .gb_ad .gb_Ic, .gb_Jc .gb_ad .gb_cd, .gb_Oc.gb_Sc .gb_Ld {
+      color: var(--ctp-text);
+    }
+    .DKV0Md {
+      color: var(--ctp-blue);
+    }
+    .NJLBac {
+      color: var(--ctp-blue);
+    }
+    .yXK7lf em {
+      color: var(--ctp-text);
+    }
+    .yDYNvb.lyLwlc {
+      color: var(--ctp-text);
+    }
+    .hb8SAc {
+      color: var(--ctp-text);
+    }
+    .kno-ecr-pt {
+      color: var(--ctp-text);
+    }
+    .wwUB2c {
+      color: var(--ctp-subtext0);
+    }
+    .TQc1id .I6TXqe {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .HsZQAe {
+        border-bottom: 1px solid var(--ctp-surface2) !important;
+    }
+    .NtaMpb .niO4u {
+      color: var(--ctp-text);
+    }
+    a.EbH0bb {
+      color: var(--ctp-subtext0);
+    }
+    .Ss2Faf a {
+      color: var(--ctp-text);
+    }
+    .kno-ftr.rpBMYb {
+      color: var(--ctp-subtext0);
+    }
+    .S8ee5.CwbYXd {
+      color: var(--ctp-text);
+    }
+    .rhHIGd {
+      background-color: var(--ctp-surface2);
+    }
+    .S8ee5.CwbYXd {
+      color: var(--ctp-text);
+    }
+    .S8ee5 {
+      background: var(--ctp-surface0);
+    }
+    .S8ee5:hover {
+      background: var(--ctp-surface1);
+    }
+    .p8VO6e {
+      color: var(--ctp-text);
+    }
+    .YTDezd {
+      background: var(--ctp-blue);
+    }
+    .NZmxZe:hover {
+      color: var(--ctp-blue);
+    }
+    .rQEFy {
+      color: var(--ctp-blue);
+      border-bottom: 3px solid var(--ctp-blue);
+    }
+    .hdtb-mitem.hdtb-msel {
+      color: var(--ctp-blue);
+    }
+    .hdtb-mitem:hover .GOE98c:hover, .hdtb-mitem:hover a, .hdtb-mitem.hdtb-msel, .t2vtad:hover {
+      color: var(--ctp-blue);
+    }
+    .cF4V5c {
+      background-color: var(--ctp-base);
+    }
+    .cF4V5c g-menu-item a, .cF4V5c g-menu-item a:visited, .cF4V5c g-menu-item a:hover {
+      color: var(--ctp-text);
+    }
+    .hdtb-tl-sel {
+      border: 1px solid var(--ctp-surface2);
+      background: var(--ctp-surface0);
+      color: var(--ctp-text);
+    }
+    .hdtb-tl-sel:focus {
+      border: 1px solid var(--ctp-surface2);
+      background: var(--ctp-surface0);
+      color: var(--ctp-blue);
+    }
+    .VvrH3b {
+      background: var(--ctp-base);
+      border: 1px solid var(--ctp-surface2);;
+    }
+    .VvrH3b:hover {
+      background: var(--ctp-mantle);
+    }
+    .VvrH3b:focus {
+      background: var(--ctp-base);    
+    }
+    .x9emld {
+      color: var(--ctp-text);
+    }
+    .VvrH3b:active {
+      background: var(--ctp-base);
+    }
+    .iRPzcb {
+      border-bottom: 1px solid var(--ctp-surface1);
+    }
+    .RES9jf {
+      color: var(--ctp-text);
+    }
+    .xTFaxe {
+      color: var(--ctp-text);
+    }
+    .Jb0Zif .UiGGAb.ILfuVd, .ILfuVd {
+      color: var(--ctp-text);
+    }
+    .eqAnXb {
+      color: var(--ctp-text);
+    }
+    .gLFyf {
+      color: var(--ctp-text);
+    }
+    .J2MhIb .JCzEY {
+      color: var(--ctp-text);
+    }
+    .rsGxI.Ww4FFb, .Ww4FFb {
+      background-color: var(--ctp-base);
+    }
+    #tw-target {
+      background-color: var(--ctp-surface0);
+    }
+    #tw-source-text-container .tw-ta, #tw-source-rmn-container .tw-ta {
+      color: var(--ctp-text);
+    }
+    .tw-data-placeholder {
+      color: var(--ctp-text);
+    }
+    .j1iyq {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .tw-menu-btn.tw-menu-btn-disabled {
+      color: var(--ctp-surface1);
+    }
+    .hhB0V {
+      color: var(--ctp-blue);
+    }
+    .KFFQ0c .YfftMc, .KFFQ0c .YfftMc span, .KFFQ0c .YfftMc div, .KFFQ0c .YfftMc a {
+      color: var(--ctp-subtext0);
+    }
+    .usJj9c .zz3gNc {
+      color: var(--ctp-text);
+    }
+    a:visited {
+      color: var(--ctp-pink);
+    }
+    .VuuXrf {
+      color: var(--ctp-text);
+    }
+    .HSryR a.B1uW2d {
+      border-bottom: 1px solid var(--ctp-surface2);
+    }
+    .psXvZ {
+      color: var(--ctp-subtext0);
+    }
+    .LHJvCe {
+      color: var(--ctp-subtext0);
+    }
+    .w8qArf .fl {
+      color: var(--ctp-text) !important;
+    }
+    .z8gr9e {
+      color: var(--ctp-text);
+    }
+    if (darktheme=="Latte") {
+        .jfN4p {
+          filter: grayscale(1) invert(1);
+        }
+        .lnXdpd {
+          filter: grayscale(1) invert(1);
+        }
+    }
+    .pdpvld {
+      color: var(--ctp-green);
+    }
+    cite, cite a:link, cite a:visited {
+      color: var(--ctp-subtext0);
+    }
+    .c07z9 {
+      color: var(--ctp-subtext0);
+    }
+    .c8d6zd {
+      color: var(--ctp-test);
+   }
+   .I6a0ee {
+      background-color: var(--ctp-base);
+      border: 1px solid var(--ctp-surface2);
+   }
+   .I6a0ee:hover {
+      background-color: var(--ctp-mantle);
+      border: 1px solid var(--ctp-surface2);
+   }
+   .I6a0ee:focus {
+      background-color: var(--ctp-crust);
+      border: 1px solid var(--ctp-surface2);
+   }
+   .cO53qb {
+      color: var(--ctp-text) !important;
+      background-color: var(--ctp-surface2);
+      border: 1px solid var(--ctp-crust);
+    }
+    .URgIvb {
+      border-color: var(--ctp-blue);
+      background-color: var(--ctp-blue);
+    }
+    .ubHt5c {
+      color: var(--ctp-subtext0);
+    }
+    .YrbPuc {
+      color: var(--ctp-subtext1);
+    }
+    .jEdCLc {
+      color: var(--ctp-text);
+    }
+    a.oBa0Fe {
+      color: var(--ctp-subtext0);
+    }
+    .c07z9 a, .c07z9 a:active, .c07z9 a:link {
+      color: var(--ctp-text);
+    }
+    .hdtb-mn-hd {
+      color: var(--ctp-subtext0);
+    }
+    .hdtb-mn-hd:hover {
+      color: var(--ctp-text);
+    }
+    .hdtb-mn-hd .gTl8xb {
+      border-color: var(--ctp-subtext0) transparent;
+    }
+    .hdtb-mn-hd:hover .gTl8xb:hover {
+      border-color: var(--ctp-text) transparent;
     }
 }
