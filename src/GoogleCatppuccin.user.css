@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.0.4
+@version        1.0.5
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -11,7 +11,7 @@
 
 @var select darktheme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha"]
 ==/UserStyle== */
-@-moz-document domain("google.com") {
+@-moz-document url-prefix("https://www.google") {
     colourscheme(flavour) {
         if (flavour=="Latte") {
             --ctp-rosewater: #dc8a78;
@@ -607,5 +607,302 @@
     }
     .hdtb-mn-hd:hover .gTl8xb:hover {
       border-color: var(--ctp-text) transparent;
+    }
+    .YbqTTb {
+      background-color: var(--ctp-base);
+      color: var(--ctp-text);
+    }
+    .JCHpcb {
+      color: var(--ctp-subtext0);
+    }
+    .JCHpcb:hover {
+      color: var(--ctp-blue);
+    }
+    .WggQGd {
+      color: var(--ctp-mauve) !important;
+    }
+    .pHiOh, a.pHiOh {
+      color: var(--ctp-subtext1) !important;
+    }
+    .wM6W7d {
+      color: var(--ctp-text);
+    }
+    .ClJ9Yb {
+      color: var(--ctp-subtext1);
+    }
+    .GI74Re {
+      color: var(--ctp-subtext0);
+    }
+    .ZE0LJd {
+      color: var(--ctp-subtext1);
+    }
+    .NUnG9d {
+      color: var(--ctp-text);
+    }
+    if (darktheme=="Latte") {
+        .SJajHc {
+            filter: grayscale(1) invert(1);
+        }
+    }
+    .AaVjTc a:link {
+      color: var(--ctp-blue);
+    }
+    .YyVfkd {
+      color: var(--ctp-subtext0);
+    }
+    .b0KoTc {
+      color: var(--ctp-text);
+    }
+    .dfB0uf {
+      color: var(--ctp-text);
+    }
+    .unknown_loc {
+      background: var(--ctp-text);
+    }
+    .KwU3F {
+      color: var(--ctp-blue);
+    }
+    .xSQxL {
+      color: var(--ctp-blue);
+    }
+    .smiUbb {
+      color: var(--ctp-text);
+    }
+    .fbar a {
+      color: var(--ctp-subtext1);
+    }
+    .f6F9Be {
+      border-top: 1px solid var(--ctp-surface0);
+    }
+    .b2hzT {
+      border-bottom: 1px solid var(--ctp-surface0);
+    }
+    #swml {
+      border-left: 1px solid var(--ctp-surface0);
+    }
+    .ZkkK1e {
+      border: 1px solid var(--ctp-crust);
+    }
+    .ZkkK1e:hover, .xaNsfc:focus .ZkkK1e, a:focus .ZkkK1e, .xaNsfc:active .ZkkK1e, a:active .ZkkK1e, .ZkkK1e:focus, .ZkkK1e:active {
+      color: var(--ctp-text);
+    }
+    .ZkkK1e.ZkkK1e {
+      color: var(--ctp-text);
+    }
+    .AGLhIc {
+      border: 1px solid var(--ctp-crust);
+      color: var(--ctp-text);
+    }
+    .AGLhIc:hover {
+        background: var(--ctp-surface0);
+    }
+    .IK8sod {
+      background: var(--ctp-surface0);
+      border: 1px solid var(--ctp-crust);
+      color: var(--ctp-text);
+    }
+    .IK8sod:hover {
+      background: var(--ctp-surface1);
+    }
+    .ZkkK1e[selected] {
+      color: var(--ctp-base);
+      border-color: var(--ctp-sapphire);
+      background: var(--ctp-blue);
+    }
+    .ZkkK1e[selected]:hover {
+      color: var(--ctp-base);
+      border-color: var(--ctp-sapphire);
+      background: var(--ctp-sapphire);
+    }
+    .Uroaid {
+      color: var(--ctp-subtext0);
+    }
+    .P7xzyf {
+      color: var(--ctp-subtext1);
+    }
+    .Zg1NU {
+      color: var(--ctp-subtext0);
+    }
+    .dyjrff {
+      color: var(--ctp-subtext1);
+    }
+    .s75CSd {
+      color: var(--ctp-text);
+    }
+    .GZnQqe .YpcDnf {
+      color: var(--ctp-subtext0);
+    }
+    .GZnQqe:hover .YpcDnf:hover {
+      background: var(--ctp-surface0);
+    }
+    .gb_Jc .gb_ze button:hover svg, .gb_Jc .gb_e:hover {
+      background-color: var(--ctp-surface0);
+    }
+    .fLciMb:hover {
+      background-color: var(--ctp-surface0);
+    }
+    .CbAZb {
+      background: var(--ctp-base);
+      border-bottom: 1px solid var(--ctp-surface0);
+    }
+    a.tGS0Nc {
+      color: var(--ctp-blue);
+    }
+    a.tGS0Nc:hover {
+      background-color: var(--ctp-mantle);
+      color: var(--ctp-blue);
+    }
+    .S8wJ3 {
+      color: var(--ctp-text);
+    }
+    .bepeF {
+      color: var(--ctp-text);
+    }
+    .kwWBYc {
+      color: var(--ctp-text);
+    }
+    .rBrJud {
+      background-color: var(--ctp-text);
+    }
+    .SknMB, .SknMB:visited {
+      color: var(--ctp-blue);
+    }
+    a.W2x9Sc, a:visited.W2x9Sc {
+      color: var(--ctp-blue);
+    }
+    .j0iFNe .kaAgDc, .j0iFNe .RvdoFd .wT0tpe, .j0iFNe .r0zAxe .wT0tpe {
+      background-color: var(--ctp-blue);
+    }
+    .uWNHce {
+      color: var(--ctp-text);
+    }
+    .ZI7elf {
+      color: var(--ctp-text);
+    }
+    .rhJQGd {
+      color: var(--ctp-subtext0);
+    }
+    .z1asCe {
+      color: var(--ctp-subtext0);
+    }
+    .l7xYUb {
+      color: var(--ctp-text);
+    }
+    .fmxhfc {
+      color: var(--ctp-subtext0);
+    }
+    .tGS0Nc {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .m0uvVb {
+      border-top: 1px solid var(--ctp-surface2);
+    }
+    .ITNV1 {
+      background-color: var(--ctp-overlay2);
+    }
+    .UsN2ld:not(.bjIqib) .a9oE3e:checked ~ .ITNV1, .UsN2ld:not(.bjIqib) .a9oE3e:checked ~ .rBrJud {
+      background-color: var(--ctp-blue);
+    }
+    .kQEH5b {
+        color: var(--ctp-subtext1) !important;
+    }
+    a:hover {
+      background: var(--ctp-mantle);
+    }
+    .Oz5Rbb:hover {
+      background: var(--ctp-mantle);
+    }
+    .ea0Lbe {
+      background: var(--ctp-surface0);
+    }
+    .f6GA0, .CacfB, .Ua7Yuf {
+      background: var(--ctp-base);
+    }
+    .DV7the {
+      color: var(--ctp-blue);
+    }
+    .ZeVBtc {
+      color: var(--ctp-subtext0);
+    }
+    .cB9M7 {
+      background-color: var(--ctp-surface0);
+      border: 1px solid var(--ctp-surface1);
+      color: var(--ctp-text);
+    }
+    .cB9M7:focus {
+      border: 1px solid var(--ctp-blue);
+    }
+    .Qwbd3 {
+      background: var(--ctp-surface0);
+      color: var(--ctp-text);
+      border: 1px solid var(--ctp-surface1);
+    }
+    .Qwbd3:hover {
+      background: var(--ctp-surface1);
+      border: 1px solid var(--ctp-surface2);
+    }
+    .ArIAXb {
+      fill: var(--ctp-surface0);
+    }
+    .qOFLsb {
+      fill: var(--ctp-surface0);
+    }
+    .aHK1bd {
+      color: var(--ctp-subtext0);
+    }
+    .diOlIe {
+      border-top: 1px solid var(--ctp-overlay0);
+    }
+    .p4pvTd {
+      color: var(--ctp-text);
+    }
+    title-with-lhs-icon .ekf0x h3 {
+      color: var(--ctp-text);
+    }
+    title-with-lhs-icon:hover .ekf0x h3 {
+      color: var(--ctp-blue);
+    }
+    title-with-lhs-icon .hSQtef.ekf0x {
+      color: var(--ctp-text);
+    }
+    title-with-lhs-icon:hover .hSQtef.ekf0x {
+      color: var(--ctp-blue);
+    }
+    .iJddsb {
+      color: var(--ctp-text);
+    }
+    .gbZSUe {
+      color: var(--ctp-text);
+    }
+    .gbZSUe:hover, .gbZSUe:active {
+      background: var(--ctp-surface0);
+    }
+    .og3lId {
+      color: var(--ctp-text);
+    }
+    .XZ5MVe {
+      color: var(--ctp-blue);
+    }
+    .bm5DV {
+      color: var(--ctp-text);
+    }
+    .TGGJzf {
+      background: var(--ctp-base);
+    }
+    .fnuYjf {
+      color: var(--ctp-text);
+    }
+    .KiRIme {
+      border: 1px solid var(--ctp-surface1);
+      color: var(--ctp-blue);
+    }
+    .YJaHLd:hover, .KiRIme:hover {
+      background-color: var(--ctp-mantle);
+    }
+    .ib7Umb {
+      color: var(--ctp-subtext0);
+    }
+    .w8NsKc {
+      color: var(--ctp-text);
     }
 }
