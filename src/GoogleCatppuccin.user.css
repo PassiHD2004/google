@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.0.5
+@version        1.0.6
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -806,9 +806,9 @@
     .kQEH5b {
         color: var(--ctp-subtext1) !important;
     }
-    a:hover {
+    /*a:hover {
       background: var(--ctp-mantle);
-    }
+    }*/
     .Oz5Rbb:hover {
       background: var(--ctp-mantle);
     }
@@ -904,5 +904,89 @@
     }
     .w8NsKc {
       color: var(--ctp-text);
+    }
+    g-inner-card {
+      background-color: var(--ctp-base);
+    }
+    g-inner-card a:hover {
+      background-color: unset !important;
+    }
+    .kLhEKe {
+      background-color: var(--ctp-base);
+    }
+    .Lj9fsd.DU1Mzb .o6juZc {
+      border: 1px solid var(--ctp-overlay0);
+    }
+    .dyAbMb {
+      fill: var(--ctp-subtext0);
+    }
+    .cEW58 {
+      background-color: var(--ctp-surface0);
+    }
+    .eadHV.Ses7yd {
+      color: var(--ctp-text);
+    }
+    .gb_Lc svg, .gb_Qc.gb_Uc svg, .gb_Lc .gb_cd .gb_Md, .gb_Lc .gb_cd .gb_Kc, .gb_Lc .gb_cd .gb_ed, .gb_Qc.gb_Uc .gb_Md {
+      color: var(--ctp-text);
+    }
+    .f {
+      color: var(--ctp-subtext0);
+    }
+    a.Ndm45b {
+      color: var(--ctp-subtext0);
+    }
+    a.Ndm45b:hover {
+      color: var(--ctp-blue);
+    }
+    .wdQNof {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .OvQkSb {
+      background-color: var(--ctp-mantle) !important;
+      color: var(--ctp-text) !important;
+    }
+    .x2GJWb .QuU3Wb {
+      color: var(--ctp-text);
+    }
+    .x2GJWb .niO4u {
+      background-color: var(--ctp-mantle);
+      color: var(--ctp-text);
+    }
+    .VNSPub {
+      color: var(--ctp-text);
+    }
+    .cmlJmd {
+      color: var(--ctp-subtext1);
+    }
+    .ETWPw {
+      border: 1px solid var(--ctp-overlay0);
+    }
+    .mjudZe {
+      color: var(--ctp-text);
+    }
+    .mjudZe {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .PyJv1b {
+      color: var(--ctp-text);
+    }
+    .kqEaA {
+      color: var(--ctp-text);
+    }
+    .BklRsd {
+      background-color: var(--ctp-base);
+      border: 1px solid var(--ctp-overlay0);
+    }
+    .FpiMuf {
+      color: var(--ctp-text);
+    }
+    .phWb1b {
+      color: var(--ctp-subtext1);
+    }
+    .FzCfme {
+      color: var(--ctp-subtext0);
+    }
+    .hMJ0yc {
+      color: var(--ctp-subtext0);
     }
 }
