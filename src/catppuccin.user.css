@@ -2,11 +2,11 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.0.7
+@version        1.0.8
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
-@updateURL      https://github.com/catppuccin/google/raw/main/src/catppuccin.user.css
+@updateURL      https://github.com/catppuccin/google/raw/main/src/GoogleCatppuccin.user.css
 @license        GNU-V3.0
 
 @var select darktheme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha"]
@@ -294,7 +294,7 @@
     .Lj9fsd.DU1Mzb {
       background-color: var(--ctp-surface0);
     }
-    .gb_Fa {
+    .gb_Ia {
       background-color: var(--ctp-base) !important;
     }
     a {
@@ -783,7 +783,7 @@
       color: var(--ctp-subtext0);
     }
     .z1asCe {
-      color: var(--ctp-subtext0);
+      color: var(--ctp-text) !important;
     }
     .l7xYUb {
       color: var(--ctp-text);
@@ -806,9 +806,9 @@
     .kQEH5b {
         color: var(--ctp-subtext1) !important;
     }
-    /*a:hover {
+    .q0yked a:hover {
       background: var(--ctp-mantle);
-    }*/
+    }
     .Oz5Rbb:hover {
       background: var(--ctp-mantle);
     }
@@ -942,7 +942,7 @@
       border: 1px solid var(--ctp-surface2);
     }
     .OvQkSb {
-      background-color: var(--ctp-mantle) !important;
+      background-color: var(--ctp-blue) !important;
       color: var(--ctp-text) !important;
     }
     .x2GJWb .QuU3Wb {
@@ -988,5 +988,104 @@
     }
     .hMJ0yc {
       color: var(--ctp-subtext0);
+    }
+    .WZ8Tjf {
+      color: var(--ctp-subtext0);
+    }
+    .gb_Lc .gb_Be button:hover svg, .gb_Lc .gb_e:hover {
+      background-color: var(--ctp-surface0);
+    }
+    /*.nz9sqb.EHzcec {
+      background-color: #f0f;
+    }*/
+    div.nz9sqb.EHzcec {
+      background-color: #f0f !important;
+      border: 1px solid rgba(0,0,0,.2);
+      border-radius: 8px;
+      box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
+      height: 100%;
+      overflow-x: hidden;
+      padding-top: 0;
+      position: relative;
+      width: 100%;
+    }
+    .Zy0CDe-PFprWc {
+      background-color: var(--ctp-blue);
+    }
+    .Jq6Y2d {
+      color: var(--ctp-text);
+    }
+    .E6xiJd {
+      color: var(--ctp-text);
+    }
+    .mwlpue {
+      color: var(--ctp-text);
+    }
+    .UpJaQ {
+      border-top: 1px solid var(--ctp-surface2);
+    }
+    .IsOZic, .IsOZic:visited {
+      color: var(--ctp-blue);
+    }
+    .qSu5 {
+      color: var(--ctp-blue);
+    }
+    .j0iFNe .athwOc-LkdAo, .j0iFNe .RvdoFd .CV4hA-LkdAo, .j0iFNe .r0zAxe .CV4hA-LkdAo {
+      background-color: var(--ctp-blue);
+    }
+    .V7LiHf {
+      color: var(--ctp-subtext1) !important;
+    }
+    .u0wZ6e {
+      color: var(--ctp-text);
+    }
+    .KhmqTd {
+      color: var(--ctp-subtext0);
+    }
+    .SPmIAf {
+      color: var(--ctp-subtext0);
+    }
+    .SPmIAf:hover {
+      color: var(--ctp-text);
+    }
+    .w6PoOe {
+      color: var(--ctp-subtext0);
+    }
+    .w6PoOe:hover {
+      color: var(--ctp-text);
+    }
+    .KA8Jyb {
+      fill: var(--ctp-subtext0);
+    }
+    .qcTKEe {
+      background-color: var(--ctp-base);
+    }
+    .ooPrBf {
+      background: var(--ctp-base);
+    }
+    .PNyWAd {
+      color: var(--ctp-subtext0);
+    }
+    .ZXJQ7c:hover {
+      background-color: var(--ctp-surface0);
+      border: 1px solid var(--ctp-surface1);
+      color: var(--ctp-text);
+    }
+    .XD1Bsc:focus {
+      border: 1px solid var(--ctp-surface2);
+      background: var(--ctp-surface0);
+      color: var(--ctp-blue);
+    }
+    .NZmxZe {
+      color: var(--ctp-subtext0);
+    }
+    .NZmxZe:hover {
+      color: var(--ctp-blue);
+    }
+    .rQEFy {
+      color: var(--ctp-blue);
+    }
+    .ZZ7G7b {
+      color: var(--ctp-text);
     }
 }
