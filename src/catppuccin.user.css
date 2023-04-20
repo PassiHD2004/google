@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.1.5
+@version        1.1.6
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -1503,5 +1503,88 @@
     }
     .gb_u .gb_t {
       color: var(--ctp-text) !important;
+    }
+    .qe1Dgc {
+      background: var(--ctp-base);
+    }
+    .appbar {
+      background: var(--ctp-base);
+    }
+    .uais2d {
+      background: var(--ctp-surface0);
+    }
+    .uais2d:hover {
+      background: var(--ctp-surface1);
+    }
+    .uODXEe {
+      color: var(--ctp-text);
+    }
+    .wfg6Pb.P2m1Af {
+      color: var(--ctp-subtext0);
+    }
+    .wwfboe {
+      border-top: 1px solid var(--ctp-surface2);
+    }
+    .VjDLd .cLjAic:not(:last-child) .mFVw3b {
+    }
+    .mh8jsf {
+      color: var(--ctp-blue);
+    }
+    .JIFdL {
+      color: var(--ctp-blue);
+    }
+    .gm7Ysb {
+      color: var(--ctp-text);
+    }
+    .VjDLd .cLjAic:not(:last-child) .mFVw3b {
+      border-bottom: 1px solid var(--ctp-surface2);
+    }
+    .BBwThe {
+      color: var(--ctp-text);
+    }
+    .KaXEge a {
+      color: var(--ctp-blue);
+    }
+    .FE52Uc {
+      color: var(--ctp-blue);
+    }
+    .fSXkBc {
+      color: var(--ctp-blue);
+    }
+    .qPht6c {
+      color: var(--ctp-subtext0);
+    }
+    .kWTy2b {
+      color: var(--ctp-text);
+    }
+    .UzD4Gd {
+      color: var(--ctp-text);
+    }
+    .mcPPZ.nP0TDe .qk7LXc {
+      background: var(--ctp-base) !important;
+    }
+    .sTZCE {
+      border-bottom: 1px solid var(--ctp-surface2) !important;
+    }
+    .POTWCf {
+      border-bottom: 1px solid var(--ctp-surface2) !important;
+    }
+    .R1smN {
+      background: var(--ctp-base);
+    }
+    .Gfzyee {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .ynRric {
+      color: var(--ctp-subtext0);
+    }
+    .AUiS2 {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .eJ7tvc {
+      color: var(--ctp-text);
+    }
+    .sbhl {
+      background: var(--ctp-surface1);
     }
 }
