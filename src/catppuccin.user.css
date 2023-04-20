@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.1.0
+@version        1.1.1
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -11,7 +11,7 @@
 
 @var select darktheme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha"]
 ==/UserStyle== */
-@-moz-document regexp("^https?://(www\\.|images\\.)?google\\..*") {
+@-moz-document regexp("^https?://(www\\.|images\\.|ogs\\.)?google\\..*") {
     colourscheme(flavour) {
         if (flavour=="Latte") {
             --ctp-rosewater: #dc8a78;
@@ -995,20 +995,6 @@
     .gb_Lc .gb_Be button:hover svg, .gb_Lc .gb_e:hover {
       background-color: var(--ctp-surface0);
     }
-    /*.nz9sqb.EHzcec {
-      background-color: #f0f;
-    }*/
-    div.nz9sqb.EHzcec {
-      background-color: #f0f !important;
-      border: 1px solid rgba(0,0,0,.2);
-      border-radius: 8px;
-      box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
-      height: 100%;
-      overflow-x: hidden;
-      padding-top: 0;
-      position: relative;
-      width: 100%;
-    }
     .Zy0CDe-PFprWc {
       background-color: var(--ctp-blue);
     }
@@ -1149,5 +1135,121 @@
     }
     .cF4V5c:hover g-menu-item:hover a, .cF4V5c:hover g-menu-item a:visited, .cF4V5c g-menu-item a:hover {
       background-color: var(--ctp-surface0);
+    }
+    .CSkcDe, .related-question-pair div.iDjcJe {
+      color: var(--ctp-text);
+    }
+    .cUnQKe .ILfuVd, .cUnQKe .UiGGAb.ILfuVd {
+      color: var(--ctp-subtext1);
+    }
+    .cUnQKe .ILfuVd b {
+      //background-color: var(--ctp-blue);
+      color: var(--ctp-text);
+    }
+    div.nz9sqb.EHzcec {
+      background-color: var(--ctp-mantle);
+    }
+    .nz9sqb .tX9u1b:hover, .nz9sqb .tX9u1b:hover .Rq5Gcb {
+      background-color: var(--ctp-base);
+    }
+    .nz9sqb .Rq5Gcb {
+      color: var(--ctp-text);
+    }
+    .nz9sqb .dGrefb {
+      border-bottom: 1px solid var(--ctp-surface1);
+    }
+    .nz9sqb .NQV3m {
+      border-color: var(--ctp-surface1);
+      color: var(--ctp-blue)
+    }
+    .nz9sqb .NQV3m:hover {
+      background-color: var(--ctp-crust);
+      border-color: var(--ctp-surface1);
+    }
+    .gb_Lc a.gb_t, .gb_Lc span.gb_t {
+      color: var(--ctp-text);
+    }
+    .gb_Lc .gb_e[aria-expanded="true"] .gb_p, .gb_Lc .gb_e[aria-expanded="true"] .gb_De {
+      fill: var(--ctp-text);
+    }
+    .gb_Lc .gb_e[aria-expanded="true"], .gb_Lc .gb_e:hover[aria-expanded="true"] {
+      background-color: var(--ctp-surface0);
+    }
+    .aRDKUe .N2ncR {
+      background: var(--ctp-mantle);
+    }
+    .aRDKUe .y5Iqsb {
+      background: var(--ctp-crust);
+    }
+    .aRDKUe .d2yxTb {
+      background: var(--ctp-crust);
+    }
+    .aRDKUe .znj3je {
+      color: var(--ctp-text);
+    }
+    .aRDKUe .Wdz6e.ZnExKf, .aRDKUe .Wdz6e {
+      color: var(--ctp-subtext0);
+    }
+    .aRDKUe .zHzpD .RroO5d {
+      color: var(--ctp-text);
+    }
+    .zHzpD .RroO5d {
+      border: 1px solid var(--ctp-surface0);
+    }
+    .aRDKUe .GXg3Le:hover > .uarSJe, .aRDKUe .WLjaOb .GXg3Le:focus:hover > .uarSJe, .aRDKUe .GXg3Le:focus:hover > .uarSJe, .aRDKUe .GXg3Le:focus > .uarSJe, .aRDKUe .WLjaOb .GXg3Le:focus > .uarSJe, .aRDKUe .GXg3Le:active:focus > .uarSJe, .aRDKUe .GXg3Le:active > .uarSJe {
+      color: var(--ctp-text);
+    }
+    .aRDKUe .OtBgcb, .aRDKUe .BvDXcd, .aRDKUe .zpoCob, .aRDKUe .NB6Lnc, .aRDKUe .ZnExKf, .aRDKUe .znj3je {
+      color: var(--ctp-text);
+    }
+    .wZbsjd {
+      fill: var(--ctp-peach);
+    }
+    .aRDKUe .ziuVxb {
+      background: var(--ctp-crust);
+    }
+    .aRDKUe .ziuVxb .GXg3Le, .aRDKUe .ziuVxb .V9opsd {
+      border-color: var(--ctp-surface0);;
+    }
+    .aRDKUe .DgDbFe .zpoCob {
+      color: var(--ctp-subtext0);
+    }
+    .aRDKUe .zHzpD .jFfZdd:focus:hover {
+      background: var(--ctp-crust);
+    }
+    .aRDKUe .DgDbFe .OtBgcb {
+      color: var(--ctp-subtext0);
+    }
+    .aRDKUe .T6SHIc {
+      border-color: var(--ctp-surface0);
+    }
+    .aRDKUe .zHzpD .jFfZdd:hover {
+      background: var(--ctp-crust);
+    }
+    .aRDKUe .zHzpD .jFfZdd:active, .aRDKUe .zHzpD .jFfZdd:active:focus {
+      background: var(--ctp-crust);
+    }
+    .aRDKUe .zHzpD .RroO5d:hover {
+      background: var(--ctp-mantle);
+    }
+    .aRDKUe .zHzpD .RroO5d:active, .aRDKUe .zHzpD .RroO5d:active:focus {
+      background: var(--ctp-mantle);
+    }
+    .aRDKUe .DgDbFe .zpoCob:hover {
+      background: var(--ctp-crust);
+    }
+    .aRDKUe .DgDbFe .zpoCob:active, .aRDKUe .DgDbFe .zpoCob:active:focus {
+      background: var(--ctp-crust);
+    }
+    .jleFbf {
+      color: var(--ctp-text);
+    }
+    .H73aad {
+      background: var(--ctp-base);
+      border: 1px solid var(--ctp-surface2);
+    }
+    .H73aad:hover {
+      background: var(--ctp-mantle);
+      border: 1px solid var(--ctp-surface2);
     }
 }
