@@ -11,6 +11,7 @@
 
 @var select darktheme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha"]
 ==/UserStyle== */
+
 @-moz-document regexp("^https?://(www\\.|images\\.|ogs\\.)?google\\..*") {
     colourscheme(flavour) {
         if (flavour=="Latte") {
