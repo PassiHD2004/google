@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.0.8
+@version        1.0.9
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -11,7 +11,7 @@
 
 @var select darktheme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha"]
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.google") {
+@-moz-document regexp("^https?://(www\\.|images\\.)?google\\..*") {
     colourscheme(flavour) {
         if (flavour=="Latte") {
             --ctp-rosewater: #dc8a78;
@@ -1087,5 +1087,46 @@
     }
     .ZZ7G7b {
       color: var(--ctp-text);
+    }
+    .xk611b {
+      background: var(--ctp-base);
+    }
+    .JNkvid .HnYYW {
+      color: var(--ctp-text);
+    }
+    .iAIpCb {
+      color: var(--ctp-subtext0);
+    }
+    .KMdzJ {
+      color: var(--ctp-subtext1);
+    }
+    .OZ8wsd {
+      color: var(--ctp-subtext0);
+    }
+    .qd9Mkf {
+      color: var(--ctp-subtext0);
+    }
+    .w8qArf {
+      color: var(--ctp-text);
+    }
+    .mDj5wd {
+      color: var(--ctp-subtext1);
+    }
+    .PmPt7d {
+      color: var(--ctp-subtext0);
+    }
+    .SW5pqf {
+      color: var(--ctp-blue);
+    }
+    .naFSC .x3sNcc {
+      color: var(--ctp-text);
+    }
+    .ssJ7i {
+      color: var(--ctp-text);
+    }
+    if (darktheme=="Latte") {
+      svg.TYpZOd {
+        filter: grayscale(1) invert(1);
+      }  
     }
 }
