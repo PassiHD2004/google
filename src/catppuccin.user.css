@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.1.8
+@version        1.1.9
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -597,6 +597,9 @@
           filter: grayscale(1) invert(1);
         }
         .lnXdpd {
+          filter: grayscale(1) invert(1);
+        }
+        .gb_Lc .gb_cd .gb_Jc:not(.gb_Nd) {
           filter: grayscale(1) invert(1);
         }
     }
@@ -1609,5 +1612,109 @@
     .LZTko:hover {
       background: var(--ctp-mantle);
       box-shadow: -56px 0 var(--ctp-mantle),24px 0 var(--ctp-mantle),-56px -10px 0 var(--ctp-mantle),24px -10px 0 var(--ctp-mantle);
+    }
+    .appbar {
+      color: var(--ctp-red);
+    }
+    .msel, .msel a {
+      color: var(--ctp-red) !important;
+    }
+    .mitem a, .mitem a:hover {
+      color: var(--ctp-text);
+    }
+    .mitem:hover {
+      background: var(--ctp-surface0);
+    }
+    .UVgjof {
+      color: var(--ctp-text);
+    }
+    .URIeEf {
+      color: var(--ctp-subtext0);
+    }
+    .checkbox-label, .jfk-radiobutton-label {
+      color: var(--ctp-text);
+    }
+    .jfk-checkbox {
+      background-color: var(--ctp-base);
+      border: 1px solid var(--ctp-text);
+    }
+    .UVgjof .jfk-checkbox-checked {
+      background: var(--ctp-text);
+    }
+    .UVgjof .jfk-radiobutton-checked .jfk-radiobutton:focus .jfk-radiobutton-radio, .UVgjof .jfk-checkbox-focused {
+      border-color: var(--ctp-blue);
+    }
+    .UVgjof {
+      border-bottom: 1px solid var(--ctp-surface2);
+    }
+    .UVgjof .goog-slider-horizontal .goog-slider-scale {
+      border-color: var(--ctp-surface2);
+    }
+    .UVgjof .goog-slider-thumb, .UVgjof .goog-slider:focus .goog-slider-thumb {
+      background: var(--ctp-overlay2);
+      border-color: var(--ctp-overlay2);
+    }
+    og-slider li {
+      color: var(--ctp-text);
+    }
+    .slmarker {
+      border-left: 1px solid var(--ctp-surface2);
+    }
+    .goog-slider li {
+      color: var(--ctp-overlay2);
+    }
+    .sllabel {
+      color: var(--ctp-surface2);
+    }
+    .UVgjof .jfk-radiobutton-radio {
+      border-color: var(--ctp-subtext0);
+    }
+    .UVgjof .jfk-radiobutton-checked .jfk-radiobutton-radio::after {
+      background: var(--ctp-text);
+      border-color: var(--ctp-text);
+    }
+    .UyLz9e {
+          border-top-color: var(--ctp-blue);
+    }
+    /*a:active {
+      color: var(--ctp-red);
+    }*/
+    .rightPane .jfk-button-action {
+      background: var(--ctp-blue);
+      border-color: var(--ctp-blue);
+      color: var(--ctp-base);
+    }
+    .jfk-button-standard {
+      color: var(--ctp-base);
+      border: 1px solid var(--ctp-text);
+    }
+    #form-buttons .jfk-button-standard {
+      background: var(--ctp-text) !important;
+    }
+    #Gm4Vke {
+      color: var(--ctp-text);
+    }
+    .jfk-radiobutton:focus .jfk-radiobutton-radio {
+      border-color: var(--ctp-blue) !important;
+    }
+    /*.appbar {
+      border-bottom: 1px solid var(--ctp-surface2);
+    }*/
+    .rightPane .jfk-button-action.jfk-button-hover {
+      background: var(--ctp-sky);
+    }
+    .jfk-button-action.jfk-button-hover {
+      border: 1px solid var(--ctp-sky);
+    }
+    .jfk-button-standard.jfk-button-hover, .jfk-button-standard.jfk-button-clear-outline.jfk-button-hover {
+      border: 1px solid var(--ctp-text);
+      color: var(--ctp-base);
+    }
+    #form-buttons:hover .jfk-button-standard:hover {
+      background: var(--ctp-subtext0) !important;
+      border: 1px solid var(--ctp-subtext0) !important;
+    }
+    .jfk-button-standard:focus {
+        border: 1px solid var(--ctp-text) !important;
     }
 }
