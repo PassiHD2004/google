@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.1.3
+@version        1.1.4
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -1428,5 +1428,47 @@
     .H9lube {
       background-color: var(--ctp-base);
       border: 1px solid var(--ctp-surface2);
+    }
+    .s2TyX.ueVdTc .M7lz2c {
+      background: var(--ctp-base);
+    }
+    .s2TyX.ueVdTc .VDApEc .hecFYc {
+      background: var(--ctp-base);
+    }
+    .YeThId {
+      border-top: 1px solid var(--ctp-surface1);
+    }
+    .e3sOrb {
+      background: var(--ctp-base);
+    }
+    .LXqMce {
+      background: var(--ctp-base);
+    }
+    .mR2gOd {
+      background: var(--ctp-base);
+    }
+    .tgqOk .pTi5ve {
+      color: var(--ctp-subtext0);
+    }
+    .WGwSK {
+      color: var(--ctp-text);
+    }
+    .dAassd {
+      background: var(--ctp-base);
+    }
+    .tgqOk {
+      background: var(--ctp-base);
+    }
+    .YPxNKd {
+      background: var(--ctp-surface2);
+    }
+    .EsIlz {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .EyBRub {
+        background: var(--ctp-base);
+    }
+    [data-ved="2ahUKEwjL8ve4wrj-AhXURaQEHVUABOkQ7BZ6BAgMEAA"] {
+        background: var(--ctp-base) !important;
     }
 }
