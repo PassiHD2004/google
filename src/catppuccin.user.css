@@ -995,7 +995,7 @@
       border: 1px solid var(--ctp-surface2);
     }
     .OvQkSb {
-      background-color: var(--ctp-blue) !important;
+      //background-color: var(--ctp-blue) !important;
       color: var(--ctp-text) !important;
     }
     .x2GJWb .QuU3Wb {
@@ -1586,5 +1586,8 @@
     }
     .sbhl {
       background: var(--ctp-surface1);
+    }
+    .j0iFNe .RvdoFd .dsLpHe {
+      border-color: var(--ctp-blue);
     }
 }
