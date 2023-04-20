@@ -42,6 +42,9 @@
 3. Then install the theme with Stylus ([click on the link](https://raw.githubusercontent.com/mustafakhalaf-git/google/main/src/catppuccin.user.css)):
 4. Choose Your accent color by Setting Theme in Stylus Options
 
+NOTE: Latte will work much better in Light theme (Quick Settings -> Light theme) ![image](https://user-images.githubusercontent.com/42213155/233351275-7dc68a5b-b65c-4d8d-abb5-765612f93f71.png)
+
+
 ## 💝 Thanks to
 
 - [mustafakhalaf-git](https://github.com/mustafakhalaf-git)
