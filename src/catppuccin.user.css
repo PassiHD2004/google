@@ -2,16 +2,15 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.1.1
+@version        1.1.2
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
-@updateURL      https://github.com/catppuccin/google/raw/main/src/GoogleCatppuccin.user.css
+@updateURL      https://github.com/catppuccin/google/raw/main/src/catppuccin.user.css
 @license        GNU-V3.0
 
 @var select darktheme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha"]
 ==/UserStyle== */
-
 @-moz-document regexp("^https?://(www\\.|images\\.|ogs\\.)?google\\..*") {
     colourscheme(flavour) {
         if (flavour=="Latte") {
@@ -1252,5 +1251,14 @@
     .H73aad:hover {
       background: var(--ctp-mantle);
       border: 1px solid var(--ctp-surface2);
+    }
+    .JgfpDb .goedYd {
+      color: var(--ctp-text);
+    }
+    .sMi44c .fxgdke {
+      color: var(--ctp-subtext1);
+    }
+    .sMi44c:hover .fxgdke {
+      color: var(--ctp-subtext1);
     }
 }
