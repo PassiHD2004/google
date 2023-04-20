@@ -1501,4 +1501,7 @@
     .cfBJGe {
       color: var(--ctp-text);
     }
+    .gb_u .gb_t {
+      color: var(--ctp-text) !important;
+    }
 }
