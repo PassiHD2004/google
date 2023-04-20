@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.1.9
+@version        1.2.0
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -189,7 +189,7 @@
         if (darktheme=="Macchiato") { colourscheme(Macchiato) }
         if (darktheme=="Mocha")     { colourscheme(Mocha) }
     }
-    body.srp, body {
+    body.srp:not(.uOat3d), body:not(.uOat3d) {
       background: var(--ctp-base);
     }
     .MUxGbd {
@@ -854,7 +854,7 @@
       border-top: 1px solid var(--ctp-surface2);
     }
     .ITNV1 {
-      background-color: var(--ctp-overlay2);
+      background-color: var(--ctp-surface2);
     }
     .UsN2ld:not(.bjIqib) .a9oE3e:checked ~ .ITNV1, .UsN2ld:not(.bjIqib) .a9oE3e:checked ~ .rBrJud {
       background-color: var(--ctp-blue);
@@ -1716,5 +1716,32 @@
     }
     .jfk-button-standard:focus {
         border: 1px solid var(--ctp-text) !important;
+    }
+    .Zy0CDe-u014N {
+      background-color: var(--ctp-surface2);
+    }
+    .Zy0CDe-PFprWc {
+      background-color: var(--ctp-text);
+    }
+    .gb_Ia svg, .gb_Qc svg, .gb_cd .gb_Md, .gb_2c .gb_Md {
+      color: var(--ctp-text);
+    }
+    .gb_Lc .gb_Be.gb_Ce button:hover svg, .gb_Be button:hover svg, .gb_e:hover {
+      background-color: var(--ctp-surface0);
+    }
+    .WdWr7c {
+      border-top: 1px solid var(--ctp-surface2);
+    }
+    .O5OUld {
+      color: var(--ctp-subtext0);
+    }
+    .zP7KFe {
+      background: var(--ctp-surface1);
+    }
+    .sU3bKf {
+      color: var(--ctp-text);
+    }
+    .O5OUld:hover {
+      color: var(--ctp-blue);
     }
 }
