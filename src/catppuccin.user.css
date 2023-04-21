@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.2.0
+@version        1.2.1
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -346,7 +346,7 @@
     .Lj9fsd.DU1Mzb {
       background-color: var(--ctp-surface0);
     }
-    .gb_Ia {
+    .gb_Ia:not(.gb_n) {
       background-color: var(--ctp-base) !important;
     }
     a {
@@ -1743,5 +1743,57 @@
     }
     .O5OUld:hover {
       color: var(--ctp-blue);
+    }
+    .JgfpDb .T3kEIe {
+      border-color: var(--ctp-surface2);
+    }
+    .JgfpDb .AKESWd {
+      fill: var(--ctp-text);
+    }
+    .hDFaN .ZAxeoe {
+      fill: var(--ctp-text);
+    }
+    .JgfpDb .legCh {
+      background-color: var(--ctp-sapphirea);
+    }
+    .JgfpDb .K8E1Be {
+      color: var(--ctp-text);
+    }
+    .n9H6p {
+      color: var(--ctp-text);
+    }
+    .JgfpDb .ZoQenf {
+      color: var(--ctp-subtext0);
+    }
+    .JgfpDb .unDjgb {
+      background-color: var(--ctp-surface0);
+    }
+    .JgfpDb .MkRxHd {
+      color: var(--ctp-text);
+    }
+    .JgfpDb .lAteZd {
+      fill: var(--ctp-text);
+    }
+    .bZeFTe {
+      background-color: var(--ctp-surface0);
+      border-top: 1px solid var(--ctp-surface2);
+    }
+    .hDFaN .ZAxeoe:hover {
+      background-color: var(--ctp-surface0);
+    }
+    .hDFaN .StEefb.iWO5td .ZAxeoe {
+      background: var(--ctp-surface1);
+    }
+    .hcC8tf .WEKSHc {
+      color: var(--ctp-text);
+    }
+    .hcC8tf .WEKSHc:hover {
+      color: var(--ctp-text);
+    }
+    .JgfpDb .V2CwNc {
+      fill: var(--ctp-text);
+    }
+    .hcC8tf .InPmOc:hover, .hcC8tf .WEKSHc:hover {
+      background-color: var(--ctp-surface0);
     }
 }
