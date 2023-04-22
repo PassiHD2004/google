@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.2.1
+@version        1.2.2
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -1795,5 +1795,65 @@
     }
     .hcC8tf .InPmOc:hover, .hcC8tf .WEKSHc:hover {
       background-color: var(--ctp-surface0);
+    }
+    body :nth-child(45) {
+        border: 1px solid var(--ctp-overlay0) !important;
+        background: var(--ctp-crust) !important;
+        color: var(--ctp-text) !important;
+    }
+    body :nth-child(45) div {
+        border-color: var(--ctp-subtext1) transparent !important;
+    }   
+    body :nth-child(45) div div {
+        border-color: var(--ctp-crust) transparent !important;
+    }
+    .fDYku, .DPLgS {
+      background-color: var(--ctp-base);
+    }
+    .DOGUjb {
+      border-top: solid 1px var(--ctp-surface2);
+      background-color: var(--ctp-base);
+    }
+    .fDYku, .DPLgS, .g3VIld .qRUolc, .g3VIld .oJeWuf, .g3VIld .Is7Fhb, .g3VIld .whsOnd, .g3VIld .AxOyFc {
+      color: var(--ctp-text) !important;
+      background: var(--ctp-base) !important;
+    }
+    .GxFZed {
+      color: var(--ctp-text);
+    }
+    .hPfsLb {
+      background-color: var(--ctp-base);
+      border: 1px solid var(--ctp-surface2);
+    }
+    .cS4Vcb-pGL6qe-lfQAOe {
+      color: var(--ctp-text);
+    }
+    .R6Lfte .Wtw8H.fKz7Od {
+      fill: var(--ctp-text) !important;
+      color: var(--ctp-text) !important;
+    }
+    .zDZAFf {
+      color: var(--ctp-subtext0);
+    }
+    .f5p3jb {
+      color: var(--ctp-text);
+    }
+    .QLueyb {
+      color: var(--ctp-subtext0);
+    }
+    .c1AlVc {
+      color: var(--ctp-text);
+    }
+    .LARRVd {
+      border-bottom: 1px solid var(--ctp-surface1);
+    }
+    .Pa2rdc {
+      background-color: var(--ctp-base);
+    }
+    .oab6Ab {
+      background: var(--ctp-surface0);
+    }
+    .zNbBhb {
+      color: var(--ctp-text);
     }
 }
