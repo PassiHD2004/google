@@ -2,7 +2,7 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.2.2
+@version        1.2.3
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -1796,15 +1796,15 @@
     .hcC8tf .InPmOc:hover, .hcC8tf .WEKSHc:hover {
       background-color: var(--ctp-surface0);
     }
-    body :nth-child(45) {
+    body :nth-child(50) {
         border: 1px solid var(--ctp-overlay0) !important;
         background: var(--ctp-crust) !important;
         color: var(--ctp-text) !important;
     }
-    body :nth-child(45) div {
+    body :nth-child(50) div {
         border-color: var(--ctp-subtext1) transparent !important;
     }   
-    body :nth-child(45) div div {
+    body :nth-child(50) div div {
         border-color: var(--ctp-crust) transparent !important;
     }
     .fDYku, .DPLgS {
@@ -1855,5 +1855,126 @@
     }
     .zNbBhb {
       color: var(--ctp-text);
+    }
+    .i29hTd .qLLird {
+      color: var(--ctp-text);
+    }
+    .yxAsKe {
+      color: var(--ctp-subtext0);
+    }
+    .N6Sb2c {
+      color: var(--ctp-subtext0);
+    }
+    .i29hTd .kR7nSc {
+      color: var(--ctp-text);
+    }
+    .zRQJhd {
+      background-color: var(--ctp-base);
+    }
+    .MEdqYd, .feqqG {
+      background: var(--ctp-surface1);
+      color: var(--ctp-text);
+      border: 1px solid var(--ctp-surface1);
+    }
+    .MEdqYd:hover, .feqqG:hover {
+      background: var(--ctp-surface2);
+      color: var(--ctp-text);
+      border: 1px solid var(--ctp-surface2);
+    }
+    .AOvabd, .dxp44d {
+      background: var(--ctp-surface0);
+      border-color: var(--ctp-surface0);
+      color: var(--ctp-text);
+    }
+    .AOvabd:hover, .dxp44d:hover {
+      background: var(--ctp-surface1);
+      border-color: var(--ctp-surface1);
+      color: var(--ctp-text);
+    }
+    .AOvabd:focus, .dxp44d:focus {
+      background: var(--ctp-surface0);
+      border-color: var(--ctp-surface0);
+      color: var(--ctp-text);
+    }
+    .AOvabd:focus:active, .dxp44d:focus:active {
+      background: var(--ctp-surface0);
+      border-color: var(--ctp-surface0);
+      color: var(--ctp-text);
+    }
+    .AOvabd:focus:hover, .dxp44d:focus:hover {
+      background: var(--ctp-surface1);
+      border-color: var(--ctp-surface1);
+      color: var(--ctp-text);
+    }
+    .AOvabd:focus:active:hover, .dxp44d:focus:active:hover {
+      background: var(--ctp-surface2);
+      border-color: var(--ctp-surface2);
+      color: var(--ctp-text);
+    }
+    .MEdqYd:focus, .feqqG:focus {
+      background: var(--ctp-surface1);
+      border-color: var(--ctp-surface1);
+      color: var(--ctp-text);
+    }
+    .MEdqYd:focus:active, .feqqG:focus:active {
+      background: var(--ctp-overlay0);
+      border-color: var(--ctp-overlay0);
+      color: var(--ctp-text);
+    }
+    .MEdqYd:focus:hover, .feqqG:focus:hover {
+      background: var(--ctp-surface2);
+      border-color: var(--ctp-surface2);
+      color: var(--ctp-text);
+    }
+    .MEdqYd:focus:active:hover, .feqqG:focus:active:hover {
+      background: var(--ctp-overlay0);
+      border-color: var(--ctp-overlay0);
+      color: var(--ctp-text);
+    }
+    .UUhRt {
+      background: var(--ctp-sapphire);
+      border-color: var(--ctp-sapphire);
+    }
+    .UUhRt:hover {
+      background: var(--ctp-sky);
+      border-color: var(--ctp-sky);
+    }
+    .UUhRt:focus:hover {
+      background: var(--ctp-sapphire);
+      border-color: var(--ctp-sapphire);
+    }
+    .UUhRt:focus:active {
+      background: var(--ctp-sapphire);
+      border-color: var(--ctp-sapphire);
+    }
+    .UUhRt:focus {
+      background: var(--ctp-sky);
+      border-color: var(--ctp-sky);
+    }
+    .UUhRt:focus:active:hover {
+      background: var(--ctp-sapphire);
+      border-color: var(--ctp-sapphire);
+    }
+    .pno7A.rfUaPd .Tqvz7b, .pno7A.hU1rMc .SwDSDf {
+      color: var(--ctp-text);
+    }
+    .pno7A.hU1rMc .Tqvz7b, .pno7A.rfUaPd .SwDSDf {
+      color: var(--ctp-subtext0);
+    }
+    .TIGsTb {
+      border: 1px solid var(--ctp-surface1);
+    }
+    .TIGsTb:hover {
+      background: var(--ctp-surface1);
+      border: 1px solid var(--ctp-surface1);
+    }
+    .qv3Wpe {
+      color: var(--ctp-text);
+    }
+    .Lm2Tt {
+      border-left: 1px solid var(--ctp-text);
+    }
+    .XH1CIc {
+      color: var(--ctp-subtext0);
     }
 }
