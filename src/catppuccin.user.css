@@ -2,12 +2,12 @@
 @name           Google Catppuccin
 @namespace      github.com/catppuccin/google
 @homepageURL    https://github.com/catppuccin/google
-@version        1.2.4
+@version        1.2.5
 @description    Soothing pastel theme for Google
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
 @updateURL      https://github.com/catppuccin/google/raw/main/src/catppuccin.user.css
-@license        GNU-V3.0
+@license        MIT
 
 @var select darktheme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha"]
 ==/UserStyle== */
