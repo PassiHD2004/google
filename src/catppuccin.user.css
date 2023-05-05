@@ -195,6 +195,28 @@
     body.srp:not(.uOat3d), body:not(.uOat3d) {
       background: var(--ctp-base);
     }
+    .pla-hovercard-container{
+      background: var(--ctp-surface0);
+    }
+    .cu-container .mnr-c{
+      background-color: var(--ctp-base);
+    }
+    .sx8gIb{
+      background-color: var(--ctp-base);
+    }
+    .w6a6Ae.w6a6Ae:not(:disabled){
+      background-color: var(--ctp-surface0);
+      color: var(--ctp-text);
+    }
+    .w6a6Ae.w6a6Ae:not(:disabled)::hover{
+      background-color: var(--ctp-surface1);
+    }
+    .w6a6Ae.w6a6Ae:hover:not(:disabled), .w6a6Ae.w6a6Ae.J0GYAf:not(:disabled), .w6a6Ae.w6a6Ae:not(.kiqhKd):focus:not(:disabled), .w6a6Ae.w6a6Ae:active:not(:disabled){
+      color: var(--ctp-text);
+    }
+    .gb_f:active{
+      background-color: var(--ctp-surface0) !important;
+    }
     .MUxGbd {
       background: var(--ctp-base);
     }
@@ -793,7 +815,7 @@
     .GZnQqe:hover .YpcDnf:hover {
       background: var(--ctp-surface0);
     }
-    .gb_Jc .gb_ze button:hover svg, .gb_Jc .gb_e:hover {
+    .gb_Jc .gb_ze button:hover svg, .gb_Jc {
       background-color: var(--ctp-surface0);
     }
     .fLciMb:hover {
@@ -1051,7 +1073,7 @@
     .WZ8Tjf {
       color: var(--ctp-subtext0);
     }
-    .gb_Lc .gb_Be button:hover svg, .gb_Lc .gb_e:hover {
+    .gb_Lc .gb_Be button:hover svg, .gb_Lc {
       background-color: var(--ctp-surface0);
     }
     .Zy0CDe-PFprWc {
@@ -1219,7 +1241,7 @@
     .gb_Lc .gb_e[aria-expanded="true"] .gb_p, .gb_Lc .gb_e[aria-expanded="true"] .gb_De {
       fill: var(--ctp-text);
     }
-    .gb_Lc .gb_e[aria-expanded="true"], .gb_Lc .gb_e:hover[aria-expanded="true"] {
+    .gb_Lc .gb_e[aria-expanded="true"], .gb_Lc{
       background-color: var(--ctp-surface0);
     }
     //keep
@@ -1645,7 +1667,7 @@
     .gb_Ia svg, .gb_Qc svg, .gb_cd .gb_Md, .gb_2c .gb_Md {
       color: var(--ctp-text);
     }
-    .gb_Lc .gb_Be.gb_Ce button:hover svg, .gb_Be button:hover svg, .gb_e:hover {
+    .gb_Lc .gb_Be.gb_Ce button:hover svg, .gb_Be button:hover svg {
       background-color: var(--ctp-surface0);
     }
     .WdWr7c {
