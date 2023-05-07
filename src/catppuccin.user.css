@@ -195,28 +195,6 @@
     body.srp:not(.uOat3d), body:not(.uOat3d) {
       background: var(--ctp-base);
     }
-    .pla-hovercard-container{
-      background: var(--ctp-surface0);
-    }
-    .cu-container .mnr-c{
-      background-color: var(--ctp-base);
-    }
-    .sx8gIb{
-      background-color: var(--ctp-base);
-    }
-    .w6a6Ae.w6a6Ae:not(:disabled){
-      background-color: var(--ctp-surface0);
-      color: var(--ctp-text);
-    }
-    .w6a6Ae.w6a6Ae:not(:disabled)::hover{
-      background-color: var(--ctp-surface1);
-    }
-    .w6a6Ae.w6a6Ae:hover:not(:disabled), .w6a6Ae.w6a6Ae.J0GYAf:not(:disabled), .w6a6Ae.w6a6Ae:not(.kiqhKd):focus:not(:disabled), .w6a6Ae.w6a6Ae:active:not(:disabled){
-      color: var(--ctp-text);
-    }
-    .gb_f:active{
-      background-color: var(--ctp-surface0) !important;
-    }
     .MUxGbd {
       background: var(--ctp-base);
     }
@@ -815,7 +793,7 @@
     .GZnQqe:hover .YpcDnf:hover {
       background: var(--ctp-surface0);
     }
-    .gb_Jc .gb_ze button:hover svg, .gb_Jc {
+    .gb_Jc .gb_ze button:hover svg, .gb_Jc .gb_e:hover {
       background-color: var(--ctp-surface0);
     }
     .fLciMb:hover {
@@ -1073,7 +1051,7 @@
     .WZ8Tjf {
       color: var(--ctp-subtext0);
     }
-    .gb_Lc .gb_Be button:hover svg, .gb_Lc {
+    .gb_Lc .gb_Be button:hover svg, .gb_Lc .gb_e:hover {
       background-color: var(--ctp-surface0);
     }
     .Zy0CDe-PFprWc {
@@ -1241,7 +1219,7 @@
     .gb_Lc .gb_e[aria-expanded="true"] .gb_p, .gb_Lc .gb_e[aria-expanded="true"] .gb_De {
       fill: var(--ctp-text);
     }
-    .gb_Lc .gb_e[aria-expanded="true"], .gb_Lc{
+    .gb_Lc .gb_e[aria-expanded="true"], .gb_Lc .gb_e:hover[aria-expanded="true"] {
       background-color: var(--ctp-surface0);
     }
     //keep
@@ -1667,7 +1645,7 @@
     .gb_Ia svg, .gb_Qc svg, .gb_cd .gb_Md, .gb_2c .gb_Md {
       color: var(--ctp-text);
     }
-    .gb_Lc .gb_Be.gb_Ce button:hover svg, .gb_Be button:hover svg {
+    .gb_Lc .gb_Be.gb_Ce button:hover svg, .gb_Be button:hover svg, .gb_e:hover {
       background-color: var(--ctp-surface0);
     }
     .WdWr7c {
@@ -1958,6 +1936,86 @@
     }
     .j04ED a, .j04ED a:active, .j04ED a:link, .j04ED a:visited {
       color: var(--ctp-subtext0);
+    }
+    .KcXNxb {
+      background: var(--ctp-base);
+    }
+    .xlBGCb {
+      color: var(--ctp-subtext0);
+    }
+    .wx62f {
+      color: var(--ctp-text);
+    }
+    .ss6qqb .Jk5Tjc {
+      border: 1px solid var(--ctp-surface2);
+    }
+    .XJa8af a:link, .XJa8af a:visited {
+      color: var(--ctp-blue);
+    }
+    .ss6qqb .PKDVJd {
+      color: var(--ctp-subtext0);
+    }
+    #rhs .u7yw9 {
+      border-left: 1px solid var(--ctp-surface1);
+    }
+    .zItAnd, .zItAnd:link, .zItAnd:visited, .zItAnd:hover, .zItAnd:active {
+      color: var(--ctp-text);
+    }
+    .zItAnd {
+      background-color: var(--ctp-background);
+      border: 1px solid var(--ctp-surface1);
+    }
+    .zItAnd:not(.MgQdud):hover {
+      background-color: var(--ctp-surface0);
+      border-color: var(--ctp-surface1);
+    }
+    .NZmxZe {
+      background-color: var(--ctp-background);
+      border: 1px solid var(--ctp-surface1);
+      color: var(--ctp-text);
+    }
+    .NZmxZe:not(.rQEFy):hover {
+      background-color: var(--ctp-surface0);
+      border-color: var(--ctp-surface1);
+      color: var(--ctp-text);
+    }
+    .rQEFy:hover {
+      background: var(--ctp-bluea);
+      color: var(--ctp-blue);
+    }
+    .fKmH1e {
+      background-color: var(--ctp-background);
+      border-color: var(--ctp-surface1);
+    }
+    .fKmH1e:hover {
+      background-color: var(--ctp-surface0);
+      border-color: var(--ctp-surface1);
+    }
+    .MgQdud, .ip7gnf {
+      background-color: var(--ctp-bluea);
+      border-color: var(--ctp-bluea);
+      color: var(--ctp-blue);
+    }
+    .MgQdud:hover, .ip7gnf:hover {
+      background-color: var(--ctp-bluea);
+      border-color: var(--ctp-bluea);
+      color: var(--ctp-blue);
+    }
+    g-menu.DWsAYc g-menu-item a.K1yPdf {
+      color: var(--ctp-text);
+    }
+    .nfSF8e.hdtb-tl-sel:hover {
+      background-color: var(--ctp-bluea);
+    }
+    .ssfWCe .ZXJQ7c {
+      color: var(--ctp-subtext0);
+    }
+    .ssfWCe .ZXJQ7c:hover {
+      background-color: var(--ctp-surface2);
+      color: var(--ctp-text);
+    }
+    .igM9Le {
+      color: var(--ctp-text);
     }
 }
 
