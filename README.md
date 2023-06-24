@@ -49,7 +49,8 @@ NOTE: Latte will work much better in Light theme (Quick Settings -> Light theme)
 
 ## 💝 Thanks to
 
-- [mustafakhalaf-git](https://github.com/mustafakhalaf-git)
+- [GitMuslim](https://github.com/GitMuslim)
+- [wkricowski](https://github.com/wkricowski)
 
 &nbsp;
 
