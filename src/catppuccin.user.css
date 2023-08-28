@@ -2017,6 +2017,30 @@
     .igM9Le {
       color: var(--ctp-text);
     }
+    .GKS7s {
+        background: var(--ctp-surface0)
+    }
+    .wLNyTe {
+        background: var(--ctp-base)
+    }
+    .xNzW0d {
+        background: var(--ctp-surface0)
+    }
+    .lWzCpb.ZEB7Fb {
+        background: var(--ctp-surface0)
+    }
+    .lWzCpb.a61j6 {
+        background: var(--ctp-surface0)
+    }
+    .vLqKYe.egcvbb.q0WxUd {
+        background: var(--ctp-surface0)
+    }
+    .MWvIVe.egcvbb {
+        background: var(--ctp-surface0)
+    }
+    .knowledge-finance-wholepage-chart__hover-card {
+        background: var(--ctp-mantle)
+    }
 }
 
 @-moz-document regexp("^https?://(ogs\\.)?google\\..*") {
