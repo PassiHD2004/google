@@ -2089,6 +2089,18 @@
     .pkgtHd {
         background: var(--ctp-surface0)
     }
+    .gb_id.gb_cd.gb_od.gb_nd {
+        background-color: var(--ctp-base)
+    }
+    .jYcx0e {
+        background: var(--ctp-base)
+    }
+    .lOTAE {
+        color: var(--ctp-text)
+    }
+    .BFlQMb {
+        color: var(--ctp-red) !important
+    }
 }
 
 @-moz-document regexp("^https?://(ogs\\.)?google\\..*") {
