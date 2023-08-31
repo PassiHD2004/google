@@ -2101,6 +2101,9 @@
     .BFlQMb {
         color: var(--ctp-red) !important
     }
+    .m6cn6 {
+        background-color: var(--ctp-base) !important
+    }
 }
 
 @-moz-document regexp("^https?://(ogs\\.)?google\\..*") {
