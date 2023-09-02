@@ -2065,6 +2065,45 @@
     .OR9QXc.LNn04b.gsrt {
         background: var(--ctp-surface1)
     } 
+    .NotFQb {
+        background: var(--ctp-base)
+    }
+    .OR9QXc.LNn04b.gsrt {
+        background: var(--ctp-surface1)
+    }
+    .LX3sZb {
+        background-color: var(--ctp-base)  
+    }
+    .gb_Ha.gb_f.gb_8a.gb_j.gb_Fc.gb_Rc {
+        background-color: var(--ctp-base) !important
+    }
+    .gbqfba.gbqfba-hvr {
+        background: var(--ctp-surface0)
+    }
+    .lnnMGf.Q1bVje {
+        background: var(--ctp-surface0)
+    }
+    .cEY8m {
+        background: var(--ctp-base)
+    }
+    .pkgtHd {
+        background: var(--ctp-surface0)
+    }
+    .gb_id.gb_cd.gb_od.gb_nd {
+        background-color: var(--ctp-base)
+    }
+    .jYcx0e {
+        background: var(--ctp-base)
+    }
+    .lOTAE {
+        color: var(--ctp-text)
+    }
+    .BFlQMb {
+        color: var(--ctp-red) !important
+    }
+    .m6cn6 {
+        background-color: var(--ctp-base) !important
+    }
 }
 
 @-moz-document regexp("^https?://(ogs\\.)?google\\..*") {
