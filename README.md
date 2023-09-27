@@ -37,6 +37,8 @@
 
 ## Usage
 
+Note: this version is not mantained anymore due to rewrite from stylus to less. New version available at [GitMuslim/userstyles](https://github.com/GitMuslim/userstyles/tree/feat/google/styles/google). See https://github.com/GitMuslim/google/pull/5#issuecomment-1736663134
+
 1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
 2. Enable `Expose iframes via HTML[stylus-­iframe]` in Stylus Settings ![image](https://user-images.githubusercontent.com/42213155/233350357-b215dc0a-dcdb-45af-8b44-f810a7fd8dfd.png)
 3. Then install the theme with Stylus ([click on the link](https://raw.githubusercontent.com/mustafakhalaf-git/google/main/src/catppuccin.user.css)):
